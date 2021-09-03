@@ -5,7 +5,7 @@ body{
 
 .container{
     width: 1200px;
-    background-color: #b14343;
+    background-color: rgb(253, 23, 23);
     height: 2000px;
     -ms-flex-item-align: center;
         align-self: center;
@@ -14,14 +14,14 @@ body{
 }
 
 .header{
-    background-color: rgb(16, 92, 92);
+    background-color: rgb(157, 217, 255);
     height: auto;
     
 }
 
 .container-menu{
     height: 60px;
-    background-color: rgb(236, 204, 161);
+    background-color: rgb(251, 255, 0);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -31,7 +31,7 @@ body{
 .container-logo{
     width: 100%;
     height: inherit;
-    background-color: rgb(190, 231, 231);
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -74,23 +74,23 @@ body{
 
 .section-1{
     height: 500px;
-    background-color: rgb(78, 21, 134);
+    background-color: rgb(255, 255, 255);
 
 }
 
 .section-2{
     height: 500px;
-    background-color: rgb(156, 152, 152);
+    background-color: rgb(157, 217, 255);
 }
 
 .section-3{
     height: 500px;
-    background-color: rgb(241, 104, 54);
+    background-color: rgb(251, 255, 0);
 }
 
 .footer{
     height: 200px;
-    background-color: rgb(130, 177, 36);
+    background-color: rgb(0, 0, 0);
     bottom: 0px;
     /* position: fixed; */
     /* width: 1200px; */
@@ -107,7 +107,7 @@ body{
 .col-3{
     width: 33.08%;
     height: 470px;
-    background-color: aquamarine;
+    background-color: rgb(157, 217, 255);
     display: inline-block;
     padding: -15px;
     margin-top: 5px;
@@ -119,7 +119,7 @@ body{
     display: inline-block;
     margin: 5px 4px 0;
     text-align: center;
-    background-color: rgb(255, 177, 148);
+    background-color: rgb(196, 232, 255);
 }
 
 .service-content{
@@ -140,7 +140,7 @@ body{
 }
 .news{
     width: 100%;
-    background-color: cadetblue;
+    background-color: rgb(251, 255, 0);
     height: 240px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -154,7 +154,7 @@ body{
 .news-data{
     width: 49%;
     height: 100%;
-    background-color: rebeccapurple;
+    background-color: rgb(0, 0, 0);
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
@@ -178,7 +178,7 @@ body{
 }
 
 
-.fa-ambulance.news-logo{
+.fasfa-baseball-ball news-logo {
     padding: 0.25em 0;
 }
 
