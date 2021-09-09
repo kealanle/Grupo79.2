@@ -5,7 +5,7 @@ body{
 
 .container{
     width: 1200px;
-    background-color: rgb(253, 23, 23);
+    background-color: #b14343;
     height: 2000px;
     -ms-flex-item-align: center;
         align-self: center;
@@ -14,25 +14,37 @@ body{
 }
 
 .header{
-    background-color: rgb(157, 217, 255);
+    background-color: rgb(16, 92, 92);
     height: auto;
     
 }
 
 .container-menu{
     height: 60px;
-    background-color: rgb(251, 255, 0);
+    background-color: rgb(178, 195, 218);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+    text-align:left;
+
+}
+
+.container-menu-second{
+    height: 60px;
+    background-color: rgb(141, 194, 117);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    text-align:left;
 
 }
 .container-logo{
     width: 100%;
     height: inherit;
-    background-color: rgb(0, 0, 0);
-    text-align: center;
+    background-color: rgb(190, 231, 231);
+    text-align: left;
 }
 
 .site-title{
@@ -51,6 +63,7 @@ body{
     list-style-type: none;
     text-align: end;
     width: 100%
+   
 }
 
 .nav-element{
@@ -58,6 +71,7 @@ body{
     display: inline-block;
     text-decoration: none;
     color: #312b2b;
+    
 
 }
 
@@ -74,23 +88,23 @@ body{
 
 .section-1{
     height: 500px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(78, 21, 134);
 
 }
 
 .section-2{
     height: 500px;
-    background-color: rgb(157, 217, 255);
+    background-color: rgb(156, 152, 152);
 }
 
 .section-3{
     height: 500px;
-    background-color: rgb(251, 255, 0);
+    background-color: rgb(241, 104, 54);
 }
 
 .footer{
     height: 200px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(130, 177, 36);
     bottom: 0px;
     /* position: fixed; */
     /* width: 1200px; */
@@ -107,7 +121,7 @@ body{
 .col-3{
     width: 33.08%;
     height: 470px;
-    background-color: rgb(157, 217, 255);
+    background-color: aquamarine;
     display: inline-block;
     padding: -15px;
     margin-top: 5px;
@@ -119,7 +133,7 @@ body{
     display: inline-block;
     margin: 5px 4px 0;
     text-align: center;
-    background-color: rgb(196, 232, 255);
+    background-color: rgb(255, 177, 148);
 }
 
 .service-content{
@@ -140,7 +154,7 @@ body{
 }
 .news{
     width: 100%;
-    background-color: rgb(251, 255, 0);
+    background-color: cadetblue;
     height: 240px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -154,7 +168,7 @@ body{
 .news-data{
     width: 49%;
     height: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rebeccapurple;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
@@ -178,7 +192,7 @@ body{
 }
 
 
-.fasfa-baseball-ball news-logo {
+.fa-ambulance.news-logo{
     padding: 0.25em 0;
 }
 
@@ -205,8 +219,20 @@ hr{
     display: flex;
     justify-content: space-evenly;
 }
+.second-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .main-menu__item{
+    line-height: 3;
+}
+
+.second-menu__item{
     line-height: 3;
 }
 
