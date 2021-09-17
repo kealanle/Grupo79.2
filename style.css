@@ -127,6 +127,14 @@ body {
   background-color: rgb(156, 152, 152);
 }
 
+.sectio-2-1 {
+  height: 490px;
+  background-color: rgb(16, 117, 199);
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
 .section-3 {
   height: 500px;
   background-color: rgb(241, 104, 54);
@@ -314,12 +322,131 @@ hr {
   text-decoration: underline;
 }
 
-.form-register .botons {
-  width: 100%;
+.botons-reg {
+  width:92%;
   background: #1f53c5;
-  border: none;
   padding: 12px;
   color: white;
   margin: 16px 0;
   font-size: 16px;
+  
+}
+.botons-reg:hover {background-color:  #1f53c5}
+
+.botons-reg:active {
+  background-color:  c;
+  box-shadow: 0 5px #0d2250;
+  transform: translateY(4px);
+}
+
+
+/**************************************************************
+*/
+
+.form-shopcar {
+  width: 80%;
+  background: #24303c;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  font-size: 90;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  text-align: center;
+}
+
+.form-shopcar h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.form-shopcar p4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.form-shopcar-items {
+  width: 80%;
+  background: #455b72;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  font-size: 90;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  
+}
+
+.botons-car {
+  width:15%;
+  background: #e90707;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 10px;
+  
+}
+.botons-car:hover {background-color:  #880707}
+
+.botons-car:active {
+  background-color:  c;
+  box-shadow: 0 5px #750606ab;
+  transform: translateY(4px);
+}
+
+
+/**************************************************************
+*/
+
+
+
+.item-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.item-image {
+  height: 300px;
+  width: 100%;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 15px;
+}
+
+.item-details > .item-price {
+  margin: 0;
+}
+
+/* ? SHOPPING CART */
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
 }
