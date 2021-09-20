@@ -14,13 +14,13 @@ body {
 }
 
 .header {
-  background-color: rgb(16, 92, 92);
+  background-color: #105c5c;
   height: auto;
 }
 
 .container-menu {
   height: 60px;
-  background-color: rgb(178, 195, 218); 
+  background-color: #b2c3da; 
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,7 +30,7 @@ body {
 
 .container-menu-second {
   height: 60px;
-  background-color: rgb(141, 194, 117);
+  background-color: #8dc275;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,7 +182,7 @@ body {
   display: inline-block;
   margin: 5px 4px 0;
   text-align: center;
-  background-color: rgb(255, 177, 148);
+  background-color: #ffb194;
 }
 
 .service-content {
@@ -472,3 +472,214 @@ hr {
 .shopping-cart-total {
   min-height: 96px;
 }
+
+/**************************************************************
+  */
+  /* Estilo Carrito
+   */
+  
+   .form-shopcar {
+    width: 80%;
+    background: #24303c;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    font-size: 90;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    text-align: center;
+  }
+  
+  .form-shopcar h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .form-shopcar p4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-shopcar-items {
+    width: 80%;
+    background: #455b72;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    font-size: 90;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    
+  }
+  
+  .botons-car {
+    width:15%;
+    background: #e90707;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 10px;
+    
+  }
+  .botons-car:hover {background-color:  #880707}
+  
+  .botons-car:active {
+    background-color:  c;
+    box-shadow: 0 5px #750606ab;
+    transform: translateY(4px);
+  }
+  
+  
+  /**************************************************************
+  */
+  
+  
+  
+  .item-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .item-image {
+    height: 300px;
+    width: 100%;
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 15px;
+  }
+  
+  .item-details > .item-price {
+    margin: 0;
+  }
+  
+  /* ? SHOPPING CART */
+  .shopping-cart-items {
+    padding: 20px 0px;
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }
+
+  .shopping-cart-section-1 {
+    height: 550px;
+    background-color: rgb(8, 5, 63);
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  
+  .shopping-cart-col-2 {
+    width: 60%;
+    height: 470px;
+    background-color: rgb(35, 131, 221);
+    display: inline-flex;
+    /* max-width: 50%; */
+    padding: 15px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .shopping-cart-col-2-2 {
+    width: 40%;
+    height: 470px;
+    background-color: rgb(8, 5, 63);
+    display: inline-flex;
+    /* max-width: 50%; */
+    padding: 15px;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  #mdiv {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border: 1px solid black;
+  }
+  
+  .mdiv {
+    height: 25px;
+    width: 2px;
+    margin-left: 12px;
+    background-color: black;
+    transform: rotate(45deg);
+    Z-index: 1;
+  }
+  
+  .md {
+    height: 25px;
+    width: 2px;
+    background-color: black;
+    transform: rotate(90deg);
+    Z-index: 2;
+  }
+  /* .botons-car-del {
+    width:25px;
+    height: 25px;
+    background: #e20c17;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    align-content: center;
+    
+    
+  }
+  .botons-car-del:hover {background-color:  #880707;
+    width:15px;
+    height: 15px;
+  }
+  .botons-car-del:active {
+    width:15px;
+    height: 15px;
+    background-color:  c;
+    box-shadow: 0 5px #750606ab;
+    transform: translateY(4px);
+   
+  } */
+
+  .botons-car-buy {
+    width:55px;
+    height: 20px;
+    background: #37e20c;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    justify-content: center;
+    position: absolute;top: 60%;
+  }
+  .botons-car-buy:hover {background-color:  #075026;
+    width:55px;
+    height: 20px;
+  }
+  .botons-car-buy:active {
+    width:55px;
+    height: 20px;
+    background-color:  c;
+    box-shadow: 0 5px #14f327ea;
+    transform: translateY(4px);
+  }
