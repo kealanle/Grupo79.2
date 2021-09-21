@@ -49,13 +49,14 @@ body {
 }
 .container-imagen {
     
-  max-width: 70%;
+  max-width: 55%;
   margin-left: 20px;
   /* margin-bottom: 20px; */
 }
 
 .gif-index {
   max-width: 100%;
+  margin-left: 70px;
 }
 
 
@@ -177,7 +178,7 @@ body {
 
 
 .col-5 {
-  width: 23%;
+  width: 24%;
   height: 320px;
   display: inline-block;
   margin: 5px 4px 0;
