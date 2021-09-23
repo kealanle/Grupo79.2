@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet2" href="./styles.css"> -->
+    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Formulario de Registro</title>
+  </head>
+
+  <body >
+    <header>
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-dark
+          bg-dark
+          navbar-collapseOnSelect
+        "
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Sprint2-v0.0.2\index.html">La Tiendita</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="navbar-collapseOnSelect"
+            data-bs-target="#navbarColor01"
+            aria-controls="navbarColor01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-user"></i>Inicie Sesion</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-shopping-cart"></i>Carrito</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="form-register" >
+        <h1>Formulario de Registro</h1>
+                          
+        <!-- form body will be here, input controls -->              
+            
+        <div class="form-group">
+            <div class="input-group">
+            <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+            <input name="nombres" type="text" class="form-control" placeholder="Ingrese sus Nombres">
+            </div>
+            <span class="help-block" id="error"></span>
+       </div>
+
+       <div class="form-group">
+        <div class="input-group">
+        <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+        <input name="apellidos" type="text" class="form-control" placeholder="Ingrese sus Apellidos">
+        </div>
+        <span class="help-block" id="error"></span>
+       </div>
+                 
+       <div class="form-group">
+            <div class="input-group">
+            <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+            <input name="email" type="text" class="form-control" placeholder="Ingrese su Email">
+            </div> 
+            <span class="help-block" id="error"></span>                     
+       </div>
+                 
+       <div class="row">
+                 
+            <div class="form-group col-lg-6">
+                 <div class="input-group">
+                 <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                 <input name="password" id="password" type="password" class="form-control" placeholder="Ingrese su Contraseña">
+                 </div>  
+                 <span class="help-block" id="error"></span>                    
+            </div>
+                     
+            <div class="form-group col-lg-6">
+                 <div class="input-group">
+                 <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                 <input name="cpassword" type="password" class="form-control" placeholder="Confirmar su Contraseña">
+                 </div>  
+                 <span class="help-block" id="error"></span>                    
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+            <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+            <input name="departamento" type="text" class="form-control" placeholder="Departamento">
+            </div> 
+            <span class="help-block" id="error"></span>                     
+        </div>
+    
+        <div class="form-group">
+            <div class="input-group">
+            <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+            <input name="ciudad" type="text" class="form-control" placeholder="Ciudad">
+            </div> 
+            <span class="help-block" id="error"></span>                     
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+            <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+            <input name="postalcode" type="text" class="form-control" placeholder="Codigo Postal">
+            </div> 
+            <span class="help-block" id="error"></span>                     
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+            <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+            <input name="direccion" type="text" class="form-control" placeholder="Direccion">
+            </div> 
+            <span class="help-block" id="error"></span>                     
+        </div>
+                
+    </div>
+
+  </body>
+
+  <footer class="seccion-pie">
+        <article>
+            <h2>Contacto</h2>
+            <p>Aquí van varias lineas</p>
+            <p>Donde va la información de contacto</p>
+            <p>Como el teléfono y demás</p>
+        </article>
+        <article>
+            <h2>Otra Información</h2>
+            <p>Aquí van varias lineas</p>
+            <p>Donde va la otra información</p>
+            <p>Como el mapa del sitio o enlaces importantes</p>
+        </article>
+  </footer>
+</html>
