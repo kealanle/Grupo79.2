@@ -1,0 +1,35 @@
+.carousel-item {
+  height: 50rem;
+  background: rgb(0, 0, 0);
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 42px;
+}
+
+.capa-imagen-carrusel{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity:0.7 ;
+
+}
+.seccion-pie {
+  background-color: #25294f;
+  height: 200px;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+ 
+}
