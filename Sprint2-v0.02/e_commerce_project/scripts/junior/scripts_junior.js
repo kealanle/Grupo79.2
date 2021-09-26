@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const fetchData = async () => {
   try {
-    const res = await fetch("/e_commerce_project/Productos/Junior/junior.json");
+    const res = await fetch("/Productos/Junior/junior.json");
     const data = await res.json();
     pintarCardsJunior(data);
   } catch (error) {

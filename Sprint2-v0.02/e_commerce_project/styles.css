@@ -25,3 +25,11 @@
   opacity:0.7 ;
 
 }
+.seccion-pie {
+  background-color: #25294f;
+  height: 200px;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+ 
+}
