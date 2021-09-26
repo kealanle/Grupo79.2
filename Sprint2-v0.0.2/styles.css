@@ -11,3 +11,24 @@
   right: 0;
   padding-bottom: 42px;
 }
+.seccion-pie {
+  background-color: #25294f;
+  height: 200px;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+ 
+}
+.form-register {
+  width:40%;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius:5%;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  overflow:auto;
+}
