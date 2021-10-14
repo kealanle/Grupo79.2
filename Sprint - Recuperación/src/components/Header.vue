@@ -17,8 +17,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fas fa-shopping-cart"></i>Carrito</a
+              <router-link class="nav-link" to= "Crud"
+              
+              
+                ><i></i>Admin</router-link
               >
             </li>
           </ul>
