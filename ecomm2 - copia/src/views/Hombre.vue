@@ -1,0 +1,49 @@
+<template>
+    <div class="hombre">
+      <Header/>
+      <NavBar/>
+    
+      <ProductoHome/>
+      <Footer />
+  
+</div>
+</template>
+
+<script>
+import Header from '@/components/Header.vue'
+import NavBar from '@/components/NavBar.vue'
+import Footer from '@/components/Footer.vue'
+import ProductoHome from '../components/ProductoHome.vue'
+export default {
+      
+      name: 'Hombre',
+       data() {
+    return {
+      productos: null,
+    };
+  },
+  components: {
+    Header,
+    NavBar,
+    Footer,
+    ProductoHome
+  },
+  mounted() {
+    axios
+      .get("api.json")
+      .then((response) => {
+        this.productos = response.data.Search.slice(0, 9);
+        console.log(this.productos);
+      });
+  },
+}
+</script>
+
+<style scoped>
+
+.container{
+      width:100%;
+      height: 50%;
+      margin-bottom: 0%
+}
+</style>
