@@ -10,7 +10,7 @@
                 <router-link class="nav-link" to="/mujer">Mujer</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/junior">Junior</router-link>
+                <router-link class="nav-link" to="/Junior">Junior</router-link>
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/accesorios">Accesorios</router-link>

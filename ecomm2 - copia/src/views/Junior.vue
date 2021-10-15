@@ -1,13 +1,10 @@
 <template>
   
-  <div class="junior">
+  <div class="Junior">
       <Header/>
       <NavBar/>
 
-      <ProductoHome/>
-
-
-      
+      <ProductoJunior/>
       <Footer />
     </div>
 </template>
@@ -16,14 +13,14 @@
 import Header from '@/components/Header.vue'
 import NavBar from '@/components/NavBar.vue'
 import Footer from '@/components/Footer.vue'
-import ProductoHome from '../components/ProductoHome.vue'
+import ProductoJunior from '../components/ProductoJunior'
 export default {
   name: 'Junior',
   components: {
     Header,
     NavBar,
     Footer,
-    ProductoHome,
+    ProductoJunior
   }
 }
 </script>

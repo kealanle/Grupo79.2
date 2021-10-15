@@ -3,7 +3,7 @@
     <Header/>
     <NavBar/>
 
-   <ProductoHome/>
+   <ProductoAccesorios/>
     <Footer/>
   
   </div>
@@ -13,7 +13,7 @@
 import Header from '@/components/Header.vue'
 import NavBar from '@/components/NavBar.vue'
 import Footer from '@/components/Footer.vue'
-import ProductoHome from '../components/ProductoHome.vue'
+import ProductoAccesorios from '../components/ProductoAccesorios'
 
 
 export default {
@@ -22,7 +22,7 @@ export default {
       Header,
       NavBar,
       Footer,
-      ProductoHome
+      ProductoAccesorios
       
   }
 }

@@ -3,7 +3,7 @@
       <Header/>
       <NavBar/>
     
-      <ProductoHome/>
+      <ProductoHombre/>
       <Footer />
   
 </div>
@@ -13,7 +13,7 @@
 import Header from '@/components/Header.vue'
 import NavBar from '@/components/NavBar.vue'
 import Footer from '@/components/Footer.vue'
-import ProductoHome from '../components/ProductoHome.vue'
+import ProductoHombre from '../components/ProductoHombre.vue'
 export default {
       
       name: 'Hombre',
@@ -26,7 +26,7 @@ export default {
     Header,
     NavBar,
     Footer,
-    ProductoHome
+    ProductoHombre
   },
   mounted() {
     axios

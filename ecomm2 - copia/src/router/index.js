@@ -38,7 +38,7 @@ const routes = [
   },
 
   {
-    path: '/junior',
+    path: '/Junior',
     name: 'Junior',
     component: () => import('../views/Junior.vue')
   },

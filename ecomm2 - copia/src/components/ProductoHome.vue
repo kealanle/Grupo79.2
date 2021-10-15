@@ -20,6 +20,8 @@
 
 <script>
 import axios from "axios";
+import API from '../logic/Api.js'
+
 export default {
   name: "ProductoHome",
    data() {
@@ -28,16 +30,17 @@ export default {
     };
   },
   methods:{
-
+    
   },
   props: {
     msg: String,
   },
   mounted() {
     axios
-      .get("api.json")
+   // ProductoHome=getcategoria('mujer');
+      .get("http://localhost:3000/producto/categoria/home")
       .then((response) => {
-        this.productos = response.data.Search.slice(0, 9);
+        this.productos = response.data.slice(0, 9);
         console.log(this.productos);
       });
   },
