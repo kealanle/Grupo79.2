@@ -165,29 +165,29 @@ app.get("/producto/categoria/accesorios", (req, res) => {
 
 
 
-// update
-//app.post("/producto/actualizar/:id", (req, res) => {
-//  productoModel.findByIdAndUpdate(
-//    req.params.id,
-//    {   producto.precio =req.body.precio;
-//      producto.id= req.body.id;
-//      newproducto.title= req.body.title;
-//     newproducto.categoria= req.body.categoria;
-//      newproducto.thumbnail=req.body.thumbnail; },
-//
-//
-//    (err, todo) => {
-//      if (!err) {
-//        res.send("Good Work");
- //     }
- //   }
- // );
-//});
+update
+app.post("/producto/actualizar/:id", (req, res) => {
+ productoModel.findByIdAndUpdate(
+   req.params.id,
+   {   producto.precio =req.body.precio;
+     producto.id= req.body.id;
+     newproducto.title= req.body.title;
+    newproducto.categoria= req.body.categoria;
+     newproducto.thumbnail=req.body.thumbnail; },
 
- delete todo
-app.delete("/todo/:id", (req, res) => {
+
+   (err, todo) => {
+     if (!err) {
+       res.send("Good Work");
+     }
+   }
+ );
+});
+
+ delete producto
+app.delete("/producto/:id", (req, res) => {
   let query = { _id: req.params.id };
-  todoModel.deleteOne(query, err => {
+  productoModel.deleteOne(query, err => {
     if (err) {
       res.send("Error while deleting producto");
     } else {

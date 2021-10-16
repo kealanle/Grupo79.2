@@ -2,7 +2,11 @@
   <div class="contenedor">
     <Header />
     
-    <div class="contenedor-crud">
+<Crear/>
+
+
+
+    <!-- <div class="contenedor-crud">
       <form action="">
         <div class="topnav">
           <button href="#contact">Buscar</button>
@@ -45,31 +49,46 @@
               id="thumbnailUrl"
               name="thumbnailUrl"
               placeholder="thumbnailUrl"
-            />
+            /> -->
 
             
 
-            <input type="submit" value="Submit" />
-          </form>
-        </div>
-        <div id="caja-crud">
+            <!-- <input type="submit" value="Crear" />
+            <input type="submit" value="Actualizar" />
+            <input type="submit" value="Eliminar" />
+          </form> -->
+        <!-- </div> -->
+        <!-- <div id="caja-crud">
           <button class="boton">Crear</button>
           <button class="boton">Atualizar</button>
           <button class="boton">Eliminar</button>
-        </div>
-      </div>
-    </div>
+        </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
 
     <Footer />
   </div>
 </template>
 
 <script>
+import Crear from '../components/Crear.vue';
 import Footer from "../components/Footer.vue";
 import Header from "../components/Header.vue";
 import NavBar from "../components/NavBar.vue";
 export default {
-  components: { Header, NavBar, Footer },
+  components: { Header, NavBar, Footer, Crear },
+   data(){
+     return {
+       crear: false,
+       info:null,
+    }
+  },
+   methods:{
+    crearClick(){
+      this.crear = true;
+     
+    }
+    }
 };
 </script>
 
@@ -115,6 +134,7 @@ export default {
 }
 input {
   margin-top: 0;
+  border-radius: 30px;
 }
 
 #caja-crud {
